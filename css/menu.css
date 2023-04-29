@@ -27,7 +27,6 @@ a {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  text-decoration: underline dotted;
 }
 b,strong {
   font-weight: bolder;
@@ -82,9 +81,7 @@ button:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+
 legend {
   box-sizing: border-box;
   color: inherit;
@@ -140,4 +137,24 @@ img {
   width: 100%;
   top: 0;
   left: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  vertical-align: bottom;
+  display: block;
+}
+
+.imageee{
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  vertical-align: bottom;
+  display: block;
+}
+
+.photo {
+  vertical-align: top;
+  padding-bottom: 0;
+  margin-bottom: 0 ;
 }
